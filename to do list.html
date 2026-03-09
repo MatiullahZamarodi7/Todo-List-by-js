@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="to do list .css">
+</head>
+
+<body>
+
+
+    <div class="all_container">
+
+
+
+
+        <!-- <first-part></first-part> -->
+
+        <h1 id="name-of-todolist">Matiullah Zamarodi To Do List </h1>
+
+        <input type="text" id="input" placeholder="somthing here ....">
+
+        <div class="colors">
+            <p id="r-color">.</p>
+            <p id="g-color"></p>
+            <p id="b-color"></p>
+            <p id="l-color"></p>
+            <p id="y-color"></p>
+            <p id="mg-color"></p>
+            <p id="p-color"></p>
+            <p id="pr-color"></p>
+            <p id="go-color"></p>
+            <p id="c-color"></p>
+
+        </div>
+        <button id="select-color"> click to color</button>
+        <input type="color" id="colorRang">
+
+        <!-- <first-part></first-part> -->
+
+
+        <!-- <second-part></second-part> -->
+
+        <div class="TDT">
+            <h3 id="CH-D">choose Deta</h3>
+
+            <h3 id="CH-T">choose Time</h3>
+
+            <h3 id="CH-TA">choose Tag</h3>
+        </div>
+
+
+        <div class="options">
+
+
+            <label for="date"></label>
+            <select name="date" id="todoMonth">
+            <option value="month , day , yers" id="dateOP">month , day , yers</option>
+            <option value="jon , 1 , 2025" id="dateOP">jon , 1 , 2025</option>
+            <option value="jon , 2 , 2025" id="dateOP">jon , 2 , 2025</option>
+            <option value="jon , 3 , 2025" id="dateOP">jon , 3 , 2025</option>
+            <option value="jon , 4 , 2025" id="dateOP">jon , 4 , 2025</option>
+            <option value="jon , 5 , 2025" id="dateOP">jon , 5 , 2025</option>
+            <option value="jon , 6 , 2025" id="dateOP">jon , 6 , 2025</option>
+            <option value="jon , 7 , 2025" id="dateOP">jon , 7 , 2025</option>
+            <option value="jon , 8 , 2025" id="dateOP">jon , 8 , 2025</option>
+            <option value="jon , 9 , 2025" id="dateOP">jon , 9 , 2025</option>
+            <option value="jon , 10 , 2025" id="dateOP">jon , 10 , 2025</option>
+        </select>
+
+
+
+            <label for="date"></label>
+            <select name="date" id="Time">
+            <option value="00,00,AM">00,00,AM</option>
+            <option value="1,30 ,AM">1,30 ,AM</option>
+            <option value="3 , 20 ,AM">3 , 20 ,AM</option>
+            <option value="5 , 00, AM">5 , 00, AM</option>
+            <option value="2 , 40 , PM">2 , 40 , PM</option>
+            <option value="8 , 20 , AM"> 8 , 20 , AM</option>
+            <option value="3 , 00 , PM"> 3 , 00 , PM</option>
+            <option value="11 , 12 , AM"> 11 , 12 , AM</option>
+            <option value="12 , 00 ,PM">12 , 00 ,PM</option>
+            <option value="7 , 30 , AM">7 , 30 , AM</option>
+        </select>
+
+
+
+            <!-- <label for="date"></label>
+        <select name="date" id="Tag">
+            <option value="Languge">HTML</option>
+            <option value="Languge">CSS</option>
+            <option value="Languge">JAVASCRIPT</option>
+            <option value="Languge">PYTON</option>
+            <option value="Languge">JCURY</option>
+            <option value="Languge">PHP</option>
+            <option value="Languge">MY SQL</option>
+            <option value="Languge">SQL</option>
+        </select> -->
+
+            <input type="text" id="addTag" placeholder="your title">
+
+
+
+        </div>
+
+
+
+
+        <!-- plase + remove -->
+
+        <div class="button-box">
+
+            <i><img id="add" src="to do list img/add.ico" alt=""></i>
+
+            <i><img id="remove-btn" src="to do list img/eraser.ico" alt=""></i>
+
+        </div>
+
+        <!-- plase + remove -->
+
+
+        <!-- to do you have right now -->
+        <div id="count">
+            <h2 id="paragraph">all To do list :</h2>
+            <h1 id="countNumber"></h1>
+        </div>
+
+
+
+
+
+
+
+
+        <!-- <second-part></second-part> -->
+
+
+
+        <div class="third-ul-box">
+            <ul id="ul-box">
+                <li id="nav_bar">id</li>
+                <li id="nav_bar">Task-Name</li>
+                <li id="nav_bar">Day</li>
+                <li id="nav_bar">Time</li>
+                <li id="nav_bar">Tag</li>
+                <li id="nav_bar">Status</li>
+                <li id="nav_bar">idet</li>
+                <li id="nav_bar">remove</li>
+            </ul>
+        </div>
+
+
+        <!-- <second-part></second-part> -->
+
+
+
+
+
+
+
+        <!-- table parts -->
+
+        <table class="all-table">
+
+            <tr class="table-tr">
+
+                <td class="namber-tb">
+                    <!-- <span class="namber-tb-name"> 1</span> -->
+                </td>
+
+                <td class="task-tb">
+                    <!-- <button class="task-tb-name">rad java sctript</button> -->
+                </td>
+
+                <td class="day-tb">
+                    <!-- <button class="day-tb-month">jon , 4 , 2025</button> -->
+                </td>
+
+                <td class="time-tb">
+                    <!-- <button class="time-tb-time">4:30</button> -->
+                </td>
+
+                <td class="todo-tag-tb">
+                    <!-- <button calss="todo-tag-tb-name">javascript</button> -->
+                </td>
+
+                <td class="todo-statuse-tb">
+                    <!-- <button class="todo-statuse-tb-name"> no Started</button> -->
+                </td>
+
+                <td class="todo-idet-tb">
+                    <!-- <i><img class="todo-idet-tb-icon" src="to do list img/edit.ico" alt=""></i> -->
+                </td>
+
+                <td class="todo-remove-tb">
+                    <!-- <i><img class="todo-remove-tb-icon" src="to do list img/remove.ico" alt=""></i> -->
+                </td>
+            </tr>
+
+        </table>
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="all-table">
+
+            <h2 id="namber-tb" style="color: red; position: relative; left: -9px;">1</h2>
+
+            <h2 id="task-name-tb">
+                <button id="task-tb-name">rad java sctript</button>
+            </h2>
+
+            <p id="day-tb"> jon , 4 , 2025</p>
+
+            <p id="time-tb"> 4:30</p>
+
+            <p id="todo-tag-tb">
+                <button id="todo-tag-tb-name">javascript</button>
+            </p>
+
+            <p id="todo-statuse-tb">
+                <button id="todo-statuse-tb-name"> no Started</button>
+            </p>
+
+            <p id="todo-idet-tb">
+                <i><img id="todo-idet-tb-i" src="to do list img/edit.ico" alt=""></i>
+            </p>
+
+            <p id="odo-remove-tb">
+                <i><img id="todo-remove-tb-name" src="to do list img/remove.ico" alt=""></i>
+            </p>
+
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- table parts -->
+
+
+
+
+
+    </div>
+
+
+
+    <script src="to do list .js"></script>
+</body>
+
+</html>
