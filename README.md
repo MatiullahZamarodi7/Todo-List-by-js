@@ -8,6 +8,6 @@ this is the most usees for your if you work with this you dont want others
 
 This is my Todo List project.
 
-![Project Screenshot](img-of-js-todo.png)
+![Project Screenshot](img-of-todo-js.png)
 
 ---
